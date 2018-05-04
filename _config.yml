@@ -18,7 +18,7 @@ email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
   YES FEMMES is an online experiment that publishes writing and digital projects working toward a queer femme aesthetic.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://sandra-rosales.com/yesfemmesstage" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
 
