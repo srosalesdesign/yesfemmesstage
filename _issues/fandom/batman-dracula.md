@@ -49,7 +49,18 @@ bio: |
 <div class="section-main section">
                 <div class="inner-section-wrapper">
 
-        <div class="video-wrapper"><div class="video" data-type="vimeo" data-video-id="233248308"></div></div>
+
+
+
+
+        <div class="video-wrapper video-container"><div class="video">
+<video controls>
+  <source src="{{ site.url }}/assets/video/batman-dracula-2017.mp4" type="video/mp4">
+  <source src="/path/to/video.webm" type="video/webm">
+  <!-- Captions are optional -->
+  <track kind="captions" label="English captions" src="/path/to/captions.vtt" srclang="en" default>
+</video>
+</div></div></div>
 </div>
 </div><!-- /section-main -->
 <div class="section-intro-text section">

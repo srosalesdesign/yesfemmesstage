@@ -47,7 +47,7 @@
 <div class="main-menu side-nav">
 <nav>
   <div class="menu-item-wrapper cv">
-  <h1><a href="/">Home</a></h1>
+  <h1><a href="">Home</a></h1>
   <h1><a href="/issues">Issues</a></h1>
   <h1><a href="/about">About</a></h1>
 </div>
@@ -220,7 +220,7 @@
 
    <div class="past-issue-one">
 
-     <h1><a href="#">no. 1: First</a></h1>
+     <h1><a href="/issue-first">no. 1: First</a></h1>
     
      
   </div><!-- / past-issue-one -->
@@ -353,9 +353,21 @@ document.body.onkeyup = function(e){
 <div class="section-main section">
                 <div class="inner-section-wrapper">
 
-        <div class="video-wrapper"><div class="video" data-type="vimeo" data-video-id="233248308"></div></div>
+
+
+
+
+        <div class="video-wrapper video-container"><div class="video">
+<video controls="">
+  <source src="http://localhost:4000/assets/video/batman-dracula-2017.mp4" type="video/mp4" />
+  <source src="/path/to/video.webm" type="video/webm" />
+  <!-- Captions are optional -->
+  <track kind="captions" label="English captions" src="/path/to/captions.vtt" srclang="en" default="" />
+</video>
+</div></div></div>
 </div>
-</div><!-- /section-main -->
+</div>
+<!-- /section-main -->
 <div class="section-intro-text section">
                 <div class="inner-section-wrapper">
 
@@ -367,9 +379,8 @@ document.body.onkeyup = function(e){
     </div>
 </div>
 
-</div>
-<!-- /section-essay -->
-<p>&lt;/div&gt;<!-- end story-wrapper --></p>
+<p>&lt;/div&gt;<!-- /section-essay -->
+&lt;/div&gt;<!-- end story-wrapper --></p>
 
 
   </div>
