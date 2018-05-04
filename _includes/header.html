@@ -14,9 +14,9 @@
 <div class="main-menu side-nav">
 <nav>
   <div class="menu-item-wrapper cv">
-  <h1><a href="/">Home</a></h1>
-  <h1><a href="/issues">Issues</a></h1>
-  <h1><a href="/about">About</a></h1>
+  <h1><a href="{{ site.baseurl }}">Home</a></h1>
+  <h1><a href="{{ site.baseurl }}/issues">Issues</a></h1>
+  <h1><a href="{{ site.baseurl }}/about">About</a></h1>
 </div>
 </nav>
 </div>
@@ -44,7 +44,7 @@
 
 {% for story in fandom-titles %}
     
-    <li><p><a href="{{ story.url }}">{{story.firstname}} {{ story.lastname }}</a></p></li>
+    <li><p><a href="{{ site.baseurl }}{{ story.url }}">{{story.firstname}} {{ story.lastname }}</a></p></li>
    
 {% endfor %}
   </ul>
@@ -60,7 +60,7 @@
 
 {% for story in fandom-titles %}
     
-    <li><p><a href="{{ story.url }}">{{story.subtitle}} {{ story.title }}</a></p></li>
+    <li><p><a href="{{ site.baseurl }}{{ story.url }}">{{story.subtitle}} {{ story.title }}</a></p></li>
    
 {% endfor %}
   </ul>
@@ -137,9 +137,9 @@
 
  
 
-{% if prevurl %}<p class="title-prev"><a href="{{ prevurl }}"> << <span> {{ prevtitle l}}</span></a></p>{% endif %}
+{% if prevurl %}<p class="title-prev"><a href="{{ site.baseurl }}{{ prevurl }}"> << <span> {{ prevtitle l}}</span></a></p>{% endif %}
 <p class="contents"><a href="/#issue-section">Contents</a></p>
-{% if nexturl %}<p class="title-next"><a href="{{ nexturl }}"><span>{{ nexttitle }} </span> >></a></p>{% endif %}
+{% if nexturl %}<p class="title-next"><a href="{{ site.baseurl }}{{ nexturl }}"><span>{{ nexttitle }} </span> >></a></p>{% endif %}
 
 <script>
 /* post pagination keyboard shortcuts */
