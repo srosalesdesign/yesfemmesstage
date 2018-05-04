@@ -55,7 +55,7 @@ bio: |
 
         <div class="video-wrapper video-container"><div class="video">
 <video controls>
-  <source src="{{ site.url }}/assets/video/batman-dracula-2017.mp4" type="video/mp4">
+  <source src="{{ site.baseurl }}/assets/video/batman-dracula-2017.mp4" type="video/mp4">
   <source src="/path/to/video.webm" type="video/webm">
   <!-- Captions are optional -->
   <track kind="captions" label="English captions" src="/path/to/captions.vtt" srclang="en" default>
