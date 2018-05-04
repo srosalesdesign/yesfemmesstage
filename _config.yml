@@ -35,5 +35,5 @@ exclude:
 collections:
   issues:
     output: true
-    permalink: /issues/:path
+    permalink: yesfemmesstage/issues/:path
 
