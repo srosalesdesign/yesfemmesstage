@@ -107,7 +107,7 @@ I nodded solemnly and took two bites of my sandwich and let my tongue relax unde
 
 
 <script>
-    var imgSrc = '/assets/images/issues/02_fandom/novak-joanna-dear-mary-kate.png';
+    var imgSrc = '{{ site.baseurl }}/assets/images/issues/02_fandom/novak-joanna-dear-mary-kate.png';
 
 
   function generateImage() {

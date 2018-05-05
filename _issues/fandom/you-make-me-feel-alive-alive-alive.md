@@ -83,7 +83,7 @@ bio: |
 
 
 <script>
-    var imgSrc = '/assets/images/issues/02_fandom/nick-rhodes.jpg';
+    var imgSrc = '{{ site.baseurl }}/assets/images/issues/02_fandom/nick-rhodes.jpg';
 
 
   function generateImage() {
