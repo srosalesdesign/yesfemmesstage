@@ -33,17 +33,24 @@ bio: |
     font-size: 2rem;
 }
 
+#intro img {
+    position: absolute;
+}
+
     
 
 </style>
 
 
-<div class="story-wrapper">
+<div class="dear-mary-kate story">
 
-	<div class="section-intro section">
+	<div id="intro" class="section-intro section">
             <div class="inner-section-wrapper">
 			{% include _fandom/titles.html %}
+
+            <img src="/assets/images/issues/02_fandom/novak-joanna-dear-mary-kate.png">
             </div>
+
 </div><!-- /section-intro -->
 <div class="section-intro-text section">
                 <div class="inner-section-wrapper">
@@ -56,10 +63,10 @@ I’ve been waiting for this secret my whole life.  My muscles are slow yawns be
 <p style="text-align: center;">*</p>
 <p>This is my first-ever dream with a chainsaw.</p>
 
-</div>
+</div><!-- / text-wrapper -->
 
-    </div>
-</div>
+</div><!-- / inner-section-wrapper-->
+</div><!-- / section-intro-text-->
 
 <div class="section-two section">
                 <div class="inner-section-wrapper">
@@ -78,10 +85,10 @@ I nodded solemnly and took two bites of my sandwich and let my tongue relax unde
 <p>I looked at my new boyfriend. I said, “I know.”</p>
 
 
-</div>
+</div><!-- / text-wrapper -->
 
-    </div>
-</div>
+</div><!-- / inner-section-wrapper-->
+</div><!-- / section-intro-text-->
 <div class="section-three section">
                 <div class="inner-section-wrapper">
     <div class="text-wrapper"><p>Dear Mary-Kate,</p>
@@ -92,10 +99,35 @@ I nodded solemnly and took two bites of my sandwich and let my tongue relax unde
 </p>
 
 
+</div><!-- / text-wrapper -->
+
+</div><!-- / inner-section-wrapper-->
+</div><!-- / section-intro-text-->
+</div><!-- end dear-mary-kate story-->
 
 
-</div>
+<script>
+    var imgSrc = '/assets/images/issues/02_fandom/novak-joanna-dear-mary-kate.png';
 
-    </div>
-</div><!-- /section-essay -->
-</div><!-- end story-wrapper -->
+
+  function generateImage() {
+  var img = document.createElement('img')
+  var container = document.getElementById("intro");
+    var availW = container.offsetWidth  - 60;
+    var availH = container.offsetHeight  - 60;
+    var randomY = Math.round(Math.random() * availH) + 'px';
+    var randomX = Math.round(Math.random() * availW) + 'px';
+
+  img.src = imgSrc;
+  img.setAttribute("height", "94");
+img.setAttribute("width", "75");
+img.style.left = randomX;
+img.style.top = randomY;
+  
+  return img;
+}
+
+for (var i = 0; i < 20; i++ ) {
+  document.getElementById("intro").appendChild(generateImage());
+}
+</script>

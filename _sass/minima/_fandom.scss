@@ -85,9 +85,19 @@ body.issue-fandom {
   margin: 0 auto;
 }
 
+.section-intro {
+  min-height: 80vh;
+  position: relative;
+   display: flex;
+  flex-direction: column;
+  justify-content: center
+}
+
+/*
 .title-info {
   min-height: 80vh;
 }
+*/
 
  .story-title {
     

@@ -38,13 +38,12 @@ bio: |
 </style>
 
 
-<div class="story-wrapper">
+<div class="dirty-dancing story">
 
 	<div class="section-intro section">
             <div class="inner-section-wrapper">
 			{% include _fandom/titles.html %}
-            <div class="section-img item"><img src="/assets/images/issues/02_fandom/cho-tom_dirtydancing_1.jpg"></div>
-            </div>
+            <div class="section-img item"><img src="/assets/images/issues/02_fandom/cho-tom_dirtydancing_1.jpg"></div></div>
 </div><!-- /section-intro -->
 <div class="section-intro-text section">
                 <div class="inner-section-wrapper">
@@ -55,11 +54,8 @@ bio: |
 <p>My parents meet me at Melbourne Airport. They are very happy to see me. As always, they literally pass me around like I am a baby. My mother holds me in her arms and exclaims over my fingers and toes and then she passes me to my father. As my father cradles me, he starts cooing to me in baby-talk. He says to me, “What’s your name, hmmm? What’s your name? Can you say your name?” and then he tickles my foot. Given the fact that I am known as “Baby,” none of this is surprising. Furthermore, my parents have been treating me like this for years and I have never felt that it will ever change. But, this time, it annoys me more than usual. I take a deep breath and I tell my parents that I am not a baby. But my mother only pokes at my belly button and tells me that I am a little Buddha. My father then holds me up in the air and proclaims that I will grow up to be prosperous and successful. I am unsure about what to do. The placating part of me tells me to keep the peace and go along with everything, the logical part of me tells me that being prosperous and successful would be very nice, the fearful part of me tells me that I need to be held by my father, and the newer part of me—the part that learned dancing at the resort—tells me that dancing, like pop culture discussions, brings people together. In the end, the part of me that learned dancing at the resort wins out, and so I jump out of my father’s arms and I say to my parents, “No one puts Baby in a corner,” and I perform a big raunchy dance number after I say it and everyone else at the airport joins in and starts dancing in a raunchy way too.</p>
 <p>My parents have no comeback for all of this. As a result, they have no choice but to come to terms with the fact that I am an adult.</p>
 
-</div>
+</div><!-- / text-wrapper -->
 
-    </div>
-</div>
-
-
-</div><!-- /section-essay -->
+</div><!-- / inner-section-wrapper-->
+</div><!-- / section-intro-text-->
 </div><!-- end story-wrapper -->
