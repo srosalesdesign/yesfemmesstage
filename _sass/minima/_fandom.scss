@@ -78,6 +78,12 @@ body.issue-fandom {
     padding-top: 1em;
   }
 
+  .story-bio {
+    p {
+    font-size: smaller;
+    }
+  }
+
     @include media-query($on-laptop) {
 
 .inner-section-wrapper {

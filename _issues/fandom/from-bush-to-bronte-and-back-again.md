@@ -56,7 +56,7 @@ bio: |
 
 <div class="section-intro-text section">
     <div class="inner-section-wrapper">
-    <div class="text-wrapper"><p>On July 16, 2016, Kate Bush fans gathered in James Madison Park to perform the iconic dance from Kate Bush's 1978 “Wuthering Heights” music video. This was the Madison, Wisconsin edition of the “Most Wuthering Heights Day Ever” event that happened simultaneously all over the world. It started in 2013 when a UK-based performance group called Shambush staged “The Ultimate Kate Bush Experience” at the Brighton Fringe Festival. They choreographed an outdoor performance of 300 people dressed as Kate Bush reenacting her Wuthering Heights dance. Inspired by the Shambush event, Kate Bush fans in Berlin decided to create a day in 2016 called “The Most Wuthering Heights Day Ever.” From the central Berlin event, international sister events popped up from Melbourne to Montreal to Tel Aviv. River Encalada Bullock, Melissa Marver, M. Milks, Bonnie Murphy, Victoria Vasys, and I organized the Madison event. On July 15, 2017, Bonnie, Melissa, and I reprised the Madison event to coincide with the global second annual Most Wuthering Heights Day Ever.</p></div></div>
+    <div class="text-wrapper"><p><i>On July 16, 2016, Kate Bush fans gathered in James Madison Park to perform the iconic dance from Kate Bush's 1978 “Wuthering Heights” music video. This was the Madison, Wisconsin edition of the “Most Wuthering Heights Day Ever” event that happened simultaneously all over the world. It started in 2013 when a UK-based performance group called Shambush staged “The Ultimate Kate Bush Experience” at the Brighton Fringe Festival. They choreographed an outdoor performance of 300 people dressed as Kate Bush reenacting her Wuthering Heights dance. Inspired by the Shambush event, Kate Bush fans in Berlin decided to create a day in 2016 called “The Most Wuthering Heights Day Ever.” From the central Berlin event, international sister events popped up from Melbourne to Montreal to Tel Aviv. River Encalada Bullock, Melissa Marver, M. Milks, Bonnie Murphy, Victoria Vasys, and I organized the Madison event. On July 15, 2017, Bonnie, Melissa, and I reprised the Madison event to coincide with the global second annual Most Wuthering Heights Day Ever.</i></p></div></div>
 </div>
 <div class="section-main section">
     <div class="inner-section-wrapper">
@@ -66,11 +66,7 @@ bio: |
 
 <div class="section-essay-preface section">
     <div class="inner-section-wrapper">
-    <div class="text-wrapper"><p><i>The writing that follows was inspired in part by discussing the MWHDE project with Professor Susan Bernstein in the context of her seminar on the Brontë sisters, in which she also covers pop culture remediations of the Brontës' work. Speaking with Susan's students in 2017 about fan culture's impact on contemporary interpretations of the novel prompted me to further reflect on the Brontë-Bush-MWHDE lineage. I am grateful to Susan for catalyzing my impulse to do so, and for her insightful perspective on the visual imagery in Bush's music videos.</i></p>
-
-<p><i>My fabulous co-organizers&mdash;River Encalada Bullock, Melissa Marver, M. Milks, Bonnie Murphy, and Victoria Vasys&mdash;contributed writing to this piece, which is highlighted. I love dancing with them, and I am honored to have collectively created Madison's MWHDE world with them.</i></p>
-
-<p><i>I also dedicate this piece to Madison's beautiful Wutherers&mdash;may we always dance our hearts out.</i></p>
+    <div class="text-wrapper">
 <p style="text-align: center; font-size: 4rem;">💃💃💃</p>
 <p>We're wrapped in gauzy, stretchy, billowy red fabric, and we're dancing in almost-unison at the edge of Lake Mendota. Radio boomboxes tuned in to our own frequency play “Wuthering Heights” on repeat&mdash;we've hacked the airwaves and the sound is sometimes staticky but we are satisfied with our analogue, DIY approach to broadcasting music in a public park. We're wearing red dresses, or approximations of red dresses, across a spectrum of red&mdash;bright red, dark red, deep red, blood red, heart red, rage red. We're unapologetically melodramatic&mdash;we luxuriate in our affective excess. Many of us wear red lipstick, and red flowers in our hair or around our necks. Some of us wear long brown wigs. One of us wears a jumpsuit. One of us wears a leotard. One of us wears a tube top. One of us wears a cape.</p>
     <p>We Wutherers love Kate Bush. We are captivated by her weird, eccentric, genre-bending style and her performance of witchy femme energy. In “Wuthering Heights,” her most iconic song/video, we find the purest expression of her wildly original creativity. So we dance. We dance in public parks and in each other's backyards and living rooms. We are totally dedicated to the dance without obsessing over getting it perfect. <span style="background-color: #0affa8;">A wise friend of mine says that you don't have to know a dance to do a dance. I really wanted people to feel comfortable moving, and for it to be joyful or rage-ful or cathartic in whatever way they wanted it to be. As a trained dancer I know there are times for getting the steps right, performing in unison...this was not one of those times. It was really important that all the dancers could own their dancing, their experience.<sup>1</sup></span> Finding our own particular embodiments of the choreography, we move from within and toward each other.</p>
@@ -88,7 +84,18 @@ bio: |
 </div>
 </div>
 </div><!-- /section-essay-preface -->
-
+<div class="section-two section"><div class="inner-section-wrapper"><div class="text-wrapper"><p><i>This writing was inspired in part by discussing the MWHDE project with Professor Susan Bernstein in the context of her seminar on the Brontë sisters, in which she also covers pop culture remediations of
+the Brontës&#39; work. Speaking with Susan&#39;s students in 2017 about fan culture&#39;s impact on contemporary
+interpretations of the novel prompted me to further reflect on the Brontë-Bush- MWHDE lineage. I am grateful to Susan for catalyzing my impulse to do so, and for her insightful perspective on the visual imagery in Bush&#39;s music videos.</i></p>
+<p><i>Some of this writing is also adapted from a blog post I wrote leading up to the 2016 event. The context
+of YES FEMMES and this issue&#39;s call for submissions guided my approach in further exploring the
+femme affects, aesthetics, and orientations of the MWHDE project, and I&#39;m glad that Sam Cohen
+encouraged me to finish writing this.</i></p>
+<p><i>My fabulous co-organizers – River Encalada Bullock, Melissa Marver, M. Milks, Bonnie Murphy, and
+Victoria Vasys – contributed writing to this piece, which is highlighted in red. I love dancing with them,
+and I am honored to have collectively created Madison&#39;s MWHDE world with them.</i></p>
+<p><i>Finally, I dedicate this piece to Madison&#39;s beautiful Wutherers – may we always dance our hearts out.</i></p></div></div>
+</div>
 <div class="section-footnotes section">
     <div class="inner-section-wrapper">
     <p><sup>1</sup>Melissa Marver</p>

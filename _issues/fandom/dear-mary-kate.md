@@ -6,7 +6,7 @@ subtitle:
 title: Dear Mary-Kate
 issue: fandom
 bio: |
-  M. Milks is the author of Kill Marguerite and Other Stories, winner of the 2015 Devil’s Kitchen Reading Award in Fiction and a Lambda Literary Award finalist; as well as three chapbooks, most recently The Feels, an exploration of fan fiction and affect. They are editor of The &NOW Awards 3: The Best Innovative Writing, 2011-2013 and co-editor of Asexualities: Feminist and Queer Perspectives.
+  JoAnna Novak is the author of the novel I Must Have You (Skyhorse Publishing 2017) and the book-length poem Noirmania (Inside the Castle 2018). She is a co-founder of the literary journal and chapbook publisher, Tammy. 
 ---
 
 <style>
@@ -103,6 +103,7 @@ I nodded solemnly and took two bites of my sandwich and let my tongue relax unde
 
 </div><!-- / inner-section-wrapper-->
 </div><!-- / section-intro-text-->
+<div class="story-bio section"><div class="inner-section-wrapper"><div class="text-wrapper"><p>{{page.bio}}</p></div></div></div>
 </div><!-- end dear-mary-kate story-->
 
 
