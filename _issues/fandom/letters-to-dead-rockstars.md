@@ -43,9 +43,9 @@ bio: |
 	<div class="section-intro section">
             <div class="inner-section-wrapper">
 			{% include _fandom/titles.html %}
-            <div class="section-img item"><img src="/assets/images/issues/02_fandom/fruchter-temim-dead-rockstars_1.jpg">
-            <img src="/assets/images/issues/02_fandom/fruchter-temim-dead-rockstars_2.jpg">
-        <img src="/assets/images/issues/02_fandom/fruchter-temim-dead-rockstars_3.jpg"></div>
+            <div class="section-img item"><img src="{{ site.baseurl }}/assets/images/issues/02_fandom/fruchter-temim-dead-rockstars_1.jpg">
+            <img src="{{ site.baseurl }}/assets/images/issues/02_fandom/fruchter-temim-dead-rockstars_2.jpg">
+        <img src="{{ site.baseurl }}/assets/images/issues/02_fandom/fruchter-temim-dead-rockstars_3.jpg"></div>
             </div>
 </div><!-- /section-intro -->
 <div class="section-intro-text section">
