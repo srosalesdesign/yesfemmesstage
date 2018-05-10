@@ -48,7 +48,7 @@ bio: |
             <div class="inner-section-wrapper">
 			{% include _fandom/titles.html %}
 
-            <img src="/assets/images/issues/02_fandom/novak-joanna-dear-mary-kate.png">
+            <img src="{{ site.baseurl }}/assets/images/issues/02_fandom/novak-joanna-dear-mary-kate.png">
             </div>
 
 </div><!-- /section-intro -->

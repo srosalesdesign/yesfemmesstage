@@ -58,12 +58,12 @@ bio: |
 <div class="section-one section">
                 <div class="inner-section-wrapper">
 
-        <img src="/assets/images/issues/02_fandom/arrand-colette-cruising_1.jpg">  
-                <img src="/assets/images/issues/02_fandom/arrand-colette-cruising_2.jpg">   
+        <img src="{{ site.baseurl }}/assets/images/issues/02_fandom/arrand-colette-cruising_1.jpg">  
+                <img src="{{ site.baseurl }}/assets/images/issues/02_fandom/arrand-colette-cruising_2.jpg">   
 
-        <img src="/assets/images/issues/02_fandom/arrand-colette-cruising_3.jpg">   
+        <img src="{{ site.baseurl }}/assets/images/issues/02_fandom/arrand-colette-cruising_3.jpg">   
 
-        <img src="/assets/images/issues/02_fandom/arrand-colette-cruising_4.jpg">   
+        <img src="{{ site.baseurl }}/assets/images/issues/02_fandom/arrand-colette-cruising_4.jpg">   
  
 
 </div><!-- /inner-section-wrapper -->

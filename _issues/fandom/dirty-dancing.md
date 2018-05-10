@@ -43,7 +43,7 @@ bio: |
 	<div class="section-intro section">
             <div class="inner-section-wrapper">
 			{% include _fandom/titles.html %}
-            <div class="section-img item"><img src="/assets/images/issues/02_fandom/cho-tom_dirtydancing_1.jpg"></div></div>
+            <div class="section-img item"><img src="{{ site.baseurl }}/assets/images/issues/02_fandom/cho-tom_dirtydancing_1.jpg"></div></div>
 </div><!-- /section-intro -->
 <div class="section-intro-text section">
                 <div class="inner-section-wrapper">
