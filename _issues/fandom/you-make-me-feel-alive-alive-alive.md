@@ -34,6 +34,34 @@ bio: |
     z-index: 10;
 }
 
+.section-img {
+    background: #8553FB;
+    width: 75%;
+    position: absolute;
+    height: 78vh;
+    box-shadow: 0 0 2em #0affa8;
+    top: 15%;
+    left: 13%;
+    z-index: 0;
+}
+
+.section img {
+    position: absolute;
+    bottom: 10%;
+    right: 10%;
+}
+
+.section-intro .title-info {
+    left: 15%;
+    position: absolute;
+    top: 19%;
+    width: 33%;
+
+}
+
+.fandom-page-wrapper .story-title {
+    text-align: left;
+}
 
 
 
@@ -53,8 +81,13 @@ bio: |
 
 </style>
 
+<div class="section-img item"><!--<img src="{{ site.baseurl }}/assets/images/issues/02_fandom/fruchter-temim-dead-rockstars_1.jpg">-->
+            <img src="{{ site.baseurl }}/assets/images/issues/02_fandom/fruchter-temim-dead-rockstars_2.jpg">
+        <!--<img src="{{ site.baseurl }}/assets/images/issues/02_fandom/fruchter-temim-dead-rockstars_3.jpg">--></div>
 
 <div id="aliveintro" class="section-intro section">
+
+
 			                 {% include _fandom/titles.html %}
 
             <img src="/assets/images/issues/02_fandom/nick-rhodes.jpg">

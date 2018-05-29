@@ -51,11 +51,14 @@
 </div>
 
 <div class="browse-menu side-nav">
+    <div class="browse-side-wrapper"></div>
+
 <nav>
 
 
 
   <div class="browse-wrapper">
+
         <p class="close-btn"><a href="#">close</a></p>
         <div class="current-issue">
       <h1>Fandom Issue</h1>
@@ -73,59 +76,7 @@
 
 
     
-    <li><p><a href="/issues/fandom/45-billion-observations">Marissa Crawford</a></p></li>
-   
-
-    
-    <li><p><a href="/issues/fandom/a-fan-of-utopia">Daviel Shy</a></p></li>
-   
-
-    
-    <li><p><a href="/issues/fandom/batman-dracula">Tyler Matthew Oyer</a></p></li>
-   
-
-    
-    <li><p><a href="/issues/fandom/cruising">Colette Arrand</a></p></li>
-   
-
-    
-    <li><p><a href="/issues/fandom/dear-mary-kate">JoAnna Novak</a></p></li>
-   
-
-    
-    <li><p><a href="/issues/fandom/dirty-dancing">Tom Cho</a></p></li>
-   
-
-    
-    <li><p><a href="/issues/fandom/from-bush-to-bronte-and-back-again">Katrina Therese Schaag</a></p></li>
-   
-
-    
-    <li><p><a href="/issues/fandom/greetings-friends">Paul Pescador</a></p></li>
-   
-
-    
-    <li><p><a href="/issues/fandom/letters-to-dead-rockstars">Temim Fruchter</a></p></li>
-   
-
-    
     <li><p><a href="/issues/fandom/mrs-bailey">Charmaine Bee</a></p></li>
-   
-
-    
-    <li><p><a href="/issues/fandom/on-mysteria-hds-mystical-hysterical-poetics">Claire Cronin</a></p></li>
-   
-
-    
-    <li><p><a href="/issues/fandom/reperforming-mendieta">Artemisa Clark</a></p></li>
-   
-
-    
-    <li><p><a href="/issues/fandom/still-moment">Young Joon Kwak</a></p></li>
-   
-
-    
-    <li><p><a href="/issues/fandom/the-phantom-voice">Tim Jones-Yelvington</a></p></li>
    
 
     
@@ -133,11 +84,55 @@
    
 
     
-    <li><p><a href="/issues/fandom/tori-4-tori">Stephen Van Dyck</a></p></li>
+    <li><p><a href="/issues/fandom/dirty-dancing">Tom Cho</a></p></li>
    
 
     
-    <li><p><a href="/issues/fandom/writing-through-valley-of-the-dolls">Andrea Lambert</a></p></li>
+    <li><p><a href="/issues/fandom/reperforming-mendieta">Artemisa Clark</a></p></li>
+   
+
+    
+    <li><p><a href="/issues/fandom/45-billion-observations">Marissa Crawford</a></p></li>
+   
+
+    
+    <li><p><a href="/issues/fandom/on-mysteria-hds-mystical-hysterical-poetics">Claire Cronin</a></p></li>
+   
+
+    
+    <li><p><a href="/issues/fandom/letters-to-dead-rockstars">Temim Fruchter</a></p></li>
+   
+
+    
+    <li><p><a href="/issues/fandom/the-phantom-voice">Tim Jones-Yelvington</a></p></li>
+   
+
+    
+    <li><p><a href="/issues/fandom/still-moment">Young Joon Kwak</a></p></li>
+   
+
+    
+    <li><p><a href="/issues/fandom/dear-mary-kate">JoAnna Novak</a></p></li>
+   
+
+    
+    <li><p><a href="/issues/fandom/batman-dracula">Tyler Matthew Oyer</a></p></li>
+   
+
+    
+    <li><p><a href="/issues/fandom/greetings-friends">Paul Pescador</a></p></li>
+   
+
+    
+    <li><p><a href="/issues/fandom/from-bush-to-bronte-and-back-again">Katrina Therese Schaag</a></p></li>
+   
+
+    
+    <li><p><a href="/issues/fandom/a-fan-of-utopia">Daviel Shy</a></p></li>
+   
+
+    
+    <li><p><a href="/issues/fandom/tori-4-tori">Stephen Van Dyck</a></p></li>
    
 
     
@@ -166,10 +161,6 @@
 
     
     <li><p><a href="/issues/fandom/batman-dracula"> Calling All Divas&#58; Batman Dracula</a></p></li>
-   
-
-    
-    <li><p><a href="/issues/fandom/cruising"> Cruising</a></p></li>
    
 
     
@@ -218,10 +209,6 @@
 
     
     <li><p><a href="/issues/fandom/tori-4-tori"> Tori 4 Tori</a></p></li>
-   
-
-    
-    <li><p><a href="/issues/fandom/writing-through-valley-of-the-dolls"> Writing Through Valley of the Dolls</a></p></li>
    
 
     
@@ -313,11 +300,13 @@ document.body.onkeyup = function(e){
     transform-style: preserve-3d;
     transform: rotateY(40deg) rotateX(33deg) translateZ(0px);
     animation: 5s ease-in-out -7.5s infinite alternate forwards intro;
+    font-family: 'Pirata One', cursive;
+    color: #8553FB;
 
 }
 
 .intro:first-child:after {
-    color: #0000ff;
+    color: #8553FB;
     text-shadow: none;
 }
 
@@ -327,7 +316,7 @@ document.body.onkeyup = function(e){
 
 
 .intro:after {
-    font-size: 5em;
+    font-size: 8em;
     content: 'FANDOM';
     white-space: pre;
     text-align: center;
@@ -337,6 +326,7 @@ document.body.onkeyup = function(e){
     top: 50px;
     letter-spacing: -2px;
     /* text-shadow: 4px 0 10px rgba(0, 0, 255, 0.13); */
+    letter-spacing: .2em;
 }
 
 @keyframes intro  {
@@ -350,6 +340,7 @@ document.body.onkeyup = function(e){
     transform: rotateY(-40deg) rotateX(-43deg);
   }
 }
+
 	
 
 </style>
@@ -360,26 +351,23 @@ document.body.onkeyup = function(e){
 
 
 <div id="landing-wrapper">
-
-<!--
-<div class="item">
+<div class="group-one">
+<div class="item w-25 p-left-top">
 	<img src="../../assets/images/issues/02_fandom/anna-mendieta.png">
 </div>
-<div class="item">
+<div class="item w-35 p-right-bottom">
 	<img src="../../assets/images/issues/02_fandom/hd.png">
 </div>
-<div class="item">
+<div class="item w-25 p-left-bottom">
 	<img src="../../assets/images/issues/02_fandom/kate-bush.png">
 </div>
-<div class="item">
+<div class="item w-25 p-bottom-center">
 	<img src="../../assets/images/issues/02_fandom/ze-brazilian.png">
 </div>
--->
 <div class="intro-wrapper">
 <div class="intro"></div>
 </div>
-
-
+</div>
 
 </div><!-- end landing wrapper -->
 

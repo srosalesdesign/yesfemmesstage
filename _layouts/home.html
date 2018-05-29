@@ -24,11 +24,13 @@ layout: default
     transform-style: preserve-3d;
     transform: rotateY(40deg) rotateX(33deg) translateZ(0px);
     animation: 5s ease-in-out -7.5s infinite alternate forwards intro;
+    font-family: 'Pirata One', cursive;
+    color: #8553FB;
 
 }
 
 .intro:first-child:after {
-    color: #0000ff;
+    color: #8553FB;
     text-shadow: none;
 }
 
@@ -38,7 +40,7 @@ layout: default
 
 
 .intro:after {
-    font-size: 5em;
+    font-size: 8em;
     content: 'FANDOM';
     white-space: pre;
     text-align: center;
@@ -48,6 +50,7 @@ layout: default
     top: 50px;
     letter-spacing: -2px;
     /* text-shadow: 4px 0 10px rgba(0, 0, 255, 0.13); */
+    letter-spacing: .2em;
 }
 
 @keyframes intro  {
@@ -61,6 +64,7 @@ layout: default
     transform: rotateY(-40deg) rotateX(-43deg);
   }
 }
+
 	
 
 </style>
@@ -71,26 +75,23 @@ layout: default
 
 
 <div id="landing-wrapper">
-
-<!--
-<div class="item">
+<div class="group-one">
+<div class="item w-25 p-left-top">
 	<img src="../../assets/images/issues/02_fandom/anna-mendieta.png">
 </div>
-<div class="item">
+<div class="item w-35 p-right-bottom">
 	<img src="../../assets/images/issues/02_fandom/hd.png">
 </div>
-<div class="item">
+<div class="item w-25 p-left-bottom">
 	<img src="../../assets/images/issues/02_fandom/kate-bush.png">
 </div>
-<div class="item">
+<div class="item w-25 p-bottom-center">
 	<img src="../../assets/images/issues/02_fandom/ze-brazilian.png">
 </div>
--->
 <div class="intro-wrapper">
 <div class="intro"></div>
 </div>
-
-
+</div>
 
 </div><!-- end landing wrapper -->
 

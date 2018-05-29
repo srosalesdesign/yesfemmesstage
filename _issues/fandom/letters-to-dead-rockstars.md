@@ -12,41 +12,31 @@ bio: |
 <style>
 
 
-
-
-.story-title {
-	position: relative;
-    z-index: 10;
+.section img {
+    position: absolute;
+    bottom: 10%;
+    right: 10%;
 }
 
-
-
-.section-intro-text {
-
-    background: white;
+.section-intro .title-info {
+    left: 15%;
+    position: absolute;
+    top: 19%;
+    width: 33%;
 
 }
 
-
-
-.section-essay p {
-    font-size: 2rem;
+.fandom-page-wrapper .story-title {
+    text-align: left;
 }
-
-    
-
 </style>
 
 
-<div class="story-wrapper">
-
-	<div class="section-intro section">
-            <div class="inner-section-wrapper">
-			{% include _fandom/titles.html %}
-            <div class="section-img item"><img src="{{ site.baseurl }}/assets/images/issues/02_fandom/fruchter-temim-dead-rockstars_1.jpg">
+<div class="section-intro section">
+    <div class="section-img item"><!--<img src="{{ site.baseurl }}/assets/images/issues/02_fandom/fruchter-temim-dead-rockstars_1.jpg">-->
             <img src="{{ site.baseurl }}/assets/images/issues/02_fandom/fruchter-temim-dead-rockstars_2.jpg">
-        <img src="{{ site.baseurl }}/assets/images/issues/02_fandom/fruchter-temim-dead-rockstars_3.jpg"></div>
-            </div>
+        <!--<img src="{{ site.baseurl }}/assets/images/issues/02_fandom/fruchter-temim-dead-rockstars_3.jpg">--></div>
+			{% include _fandom/titles.html %}
 </div><!-- /section-intro -->
 <div class="section-intro-text section">
                 <div class="inner-section-wrapper">
@@ -56,10 +46,7 @@ bio: |
 <p>The night we leave together we eat piles of noodles in the dark car we wear ready-go outfits we accept Bruce Springsteen’s promises and challenges with somber streetlit eyes. We never fact-check our intuition, just look up directions to somewhere especially pink and unfamiliar and we drive. We sunset we moonrise in seatbelts the world whirs past and we dream the guitars onto one another’s chests. Fuck. I have never known how to tell you. X-Ray Spex and I say turn it louder. Patti Smith and I say turn it louder. Sam Cooke and I say turn it louder. Aretha Franklin and I say turn it louder. Roy Orbison and I say turn it louder. We sing together the whole way. It’s as loud as it gets. Our voices don’t blend but we vibrate and the colors come vivid through the windows as we go. All the way. I could sing forever that’s the honest truth. I could sing forever.</p>
 
 </div>
-
-    </div>
+</div>
 </div>
 
 
-</div><!-- /section-essay -->
-</div><!-- end story-wrapper -->

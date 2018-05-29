@@ -4,6 +4,7 @@
 /**
  * Reset some basic elements
  */
+@import url("https://fonts.googleapis.com/css?family=Pirata+One");
 body, h1, h2, h3, h4, h5, h6,
 p, blockquote, pre, hr,
 dl, dd, ol, ul, figure {
@@ -233,14 +234,6 @@ pre {
   z-index: 99;
   height: 60px;
   padding-top: 2em; }
-  .branding .issue-label, .branding .issue-no {
-    font-family: 'Inconsolata', monospace;
-    color: #0affa8;
-    text-transform: uppercase;
-    letter-spacing: .5em;
-    font-size: 1.1em;
-    text-decoration-line: underline;
-    text-decoration-style: wavy; }
 
 .logo {
   /*
@@ -257,7 +250,7 @@ pre {
   .logo h1 {
     text-transform: uppercase;
     font-weight: 600;
-    font-size: 1.2em;
+    font-size: 1.8em;
     text-align: center;
     letter-spacing: .25em; }
   .logo a {
@@ -392,6 +385,10 @@ pre {
   -moz-transition: right .3s ease;
   transition: right .3s ease;
   /* Filtering Title & Author */ }
+  .browse-menu .browse-side-wrapper, .browse-menu.hide .browse-side-wrapper {
+    position: absolute;
+    width: 50px;
+    height: 100%; }
   .browse-menu nav, .browse-menu.hide nav {
     height: 100%;
     position: relative;
@@ -444,6 +441,10 @@ pre {
 
 .index-menu {
   right: 0; }
+
+.home-logo {
+  position: relative;
+  z-index: 99; }
 
 .home-logo h1 {
   font-family: 'Montserrat', sansserif;
@@ -524,7 +525,25 @@ pre {
   height: 100%;
   width: 100%;
   position: absolute;
-  top: 0; }
+  top: 0;
+  overflow: hidden; }
+  #landing-wrapper .item {
+    position: absolute; }
+  #landing-wrapper .w-25 {
+    width: 25%; }
+  #landing-wrapper .w-35 {
+    width: 35%; }
+  #landing-wrapper .group-one .p-left-top {
+    top: 5%; }
+  #landing-wrapper .group-one .p-right-bottom {
+    top: 25%;
+    right: -5%; }
+  #landing-wrapper .group-one .p-left-bottom {
+    bottom: 15%;
+    left: 6%; }
+  #landing-wrapper .group-one .p-bottom-center {
+    bottom: 0;
+    left: 40%; }
 
 .panel {
   width: 100%;
@@ -966,11 +985,17 @@ img.kenburns {
       display: inline-block; } }
 
 .full-height {
-  height: 100vh; }
+  height: 100vh;
+  position: relative; }
 
 .flexit {
   display: flex;
   flex-direction: column; }
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
 
 .slide {
   width: 100%;
@@ -1183,15 +1208,45 @@ body.issue-fandom {
   /* Reset 100% height on parent containers */ }
   body.issue-fandom .container, body.issue-fandom .page-content, body.issue-fandom .wrapper, body.issue-fandom .page-wrapper {
     height: auto; }
+  body.issue-fandom .logo a {
+    color: #0affa8; }
+  body.issue-fandom .menu-index {
+    background: none;
+    box-shadow: none; }
+  body.issue-fandom .index {
+    width: 80%;
+    justify-content: space-between; }
+    body.issue-fandom .index p {
+      padding: 0;
+      margin: 0;
+      font-size: 2em; }
+      body.issue-fandom .index p a {
+        color: #8553FB;
+        text-decoration-line: underline;
+        text-decoration-style: wavy; }
 
 .fhvh {
   height: 100vh; }
+
+.issue-label, .issue-no {
+  font-family: 'Pirata One', cursive;
+  /*color: #0affa8;*/
+  color: #8553FB;
+  text-transform: uppercase;
+  letter-spacing: .3em;
+  font-size: 1.2em;
+  text-decoration-line: underline;
+  text-decoration-style: wavy; }
 
 .fandom-page-wrapper .story-wrapper {
   background: none;
   height: auto; }
 .fandom-page-wrapper .section-intro {
   padding: 3em; }
+  .fandom-page-wrapper .section-intro img {
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+    opacity: 0.65; }
 .fandom-page-wrapper .inner-section-wrapper {
   width: 90%;
   margin: 0 auto; }
@@ -1218,9 +1273,15 @@ body.issue-fandom {
   font-size: 1.5rem;
   text-align: justify; }
 .fandom-page-wrapper .video-wrapper {
-  padding: 0 1.3em; }
-.fandom-page-wrapper .video {
-  border: 3px solid #000; }
+  padding: 0;
+  border: 5px solid #0affa8; }
+.fandom-page-wrapper .plyr__play-large svg {
+  fill: #0affa8; }
+.fandom-page-wrapper .plyr__play-large {
+  background: none;
+  border: 0; }
+.fandom-page-wrapper .plyr__progress--played, .fandom-page-wrapper .plyr__volume--display {
+  color: #0affa8; }
 .fandom-page-wrapper .section-footnotes {
   border-top: 1px solid #0affa8;
   padding-top: 1em; }
@@ -1237,18 +1298,37 @@ body.issue-fandom {
       width: 65%;
       margin: 0 auto; }
     .fandom-page-wrapper .section-intro {
-      min-height: 80vh;
+      min-height: 90vh;
       position: relative;
       display: flex;
-      flex-direction: column;
-      justify-content: center; }
+      justify-content: center;
+      align-items: center; }
+    .fandom-page-wrapper .section-img {
+      background: #8553FB;
+      width: 85%;
+      height: 78vh;
+      box-shadow: 0 0 2em #0affa8;
+      z-index: 0; }
     .fandom-page-wrapper .story-title {
       font-size: 4vw;
-      border: solid 5px;
       padding: .5em;
       line-height: 1.3; }
     .fandom-page-wrapper .sub-title {
       font-size: 2.5vw; } }
+.fandom-page-wrapper .story-heading {
+  font-family: 'Pirata One', cursive;
+  color: #8553FB;
+  font-size: 4rem; }
+.fandom-page-wrapper blockquote {
+  border-left: 4px solid #0affa8;
+  color: #ffffff;
+  font-size: 1.1em;
+  padding: 2em;
+  background: linear-gradient(to bottom, #8553fb 0%, #ae90f9 68%); }
+.fandom-page-wrapper .notes .text-wrapper p {
+  font-size: smaller; }
+.fandom-page-wrapper .gray-border {
+  border-top: 1px solid #eee; }
 
 /**
  * Syntax highlighting styles

@@ -14,11 +14,29 @@ bio: |
 
 
 
-.story-title {
-	position: relative;
-    z-index: 10;
+
+
+.section-intro .inner-section-wrapper {
+    background: #8553FB;
+    width: 85%;
+    height: 78vh;
+    box-shadow: 0 0 2em #0affa8;
+   
+
 }
 
+.fandom-page-wrapper .title-info, .fandom-page-wrapper .story-title {
+    text-align: left;
+    margin-left: 4.3%;
+}
+
+.section-intro .text-wrapper {
+    position: absolute;
+    width: 35%;
+    left: 17%;
+    color: white;
+    top: 35%;
+}
 
 
 .section-intro-text {
@@ -33,31 +51,34 @@ bio: |
     font-size: 2rem;
 }
 
+.section-main {
+    background-image: radial-gradient(100% 100%, #8553FB 10%, #fff 50%);
+}
+
+.section-main .inner-section-wrapper {
+    width: 75%;
+}
+
+
+
+
+
     
 
 </style>
 
-
-<div class="story-wrapper">
-
-	<div class="section-intro section">
+<div class="section-intro section">
             <div class="inner-section-wrapper">
 			{% include _fandom/titles.html %}
             </div>
-</div><!-- /section-intro -->
-<div class="section-intro-text section">
-                <div class="inner-section-wrapper">
-
     <div class="text-wrapper"><p>a still moment: a diva under a spotlight; abject, unruly fragments, constantly transforming; simultaneous cheering, booing, laughing. divas themselves are mechanisms for the workings of power through discourse; they invoke an identification in the viewer—a sign of objectification for the subjugation of the viewer.  what if the exemplary diva was one of formlessness? an amorphous shit blob coming together and falling apart and fading in and out--no race, gender, etc..</p>
 </div>
+</div><!-- /section-intro -->
 
-    </div>
 </div>
-<div class="section-main section">
+<div class="section-main section full-height flex-center">
                 <div class="inner-section-wrapper">
-
-        <div class="video-wrapper"><div class="video" data-type="youtube" data-video-id="65x2xclLqn8"></div></div>
+<div class="video-wrapper"><div class="video" data-type="youtube" data-video-id="65x2xclLqn8"></div></div>
 </div>
 </div><!-- /section-main -->
 </div><!-- /section-essay -->
-</div><!-- end story-wrapper -->

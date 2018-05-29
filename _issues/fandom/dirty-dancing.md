@@ -33,17 +33,19 @@ bio: |
     font-size: 2rem;
 }
 
-    
+  #intro img {
+    position: absolute;
+}  
 
 </style>
 
 
 <div class="dirty-dancing story">
 
-	<div class="section-intro section">
+	<div id="intro" class="section-intro section">
             <div class="inner-section-wrapper">
 			{% include _fandom/titles.html %}
-            <div class="section-img item"><img src="{{ site.baseurl }}/assets/images/issues/02_fandom/cho-tom_dirtydancing_1.jpg"></div></div>
+          </div>
 </div><!-- /section-intro -->
 <div class="section-intro-text section">
                 <div class="inner-section-wrapper">
@@ -59,3 +61,29 @@ bio: |
 </div><!-- / inner-section-wrapper-->
 </div><!-- / section-intro-text-->
 </div><!-- end story-wrapper -->
+
+<script>
+    var imgSrc = '{{ site.baseurl }}/assets/images/issues/02_fandom/cho-tom_dirtydancing_1.jpg';
+
+
+  function generateImage() {
+  var img = document.createElement('img')
+  var container = document.getElementById("intro");
+    var availW = container.offsetWidth  - 60;
+    var availH = container.offsetHeight  - 60;
+    var randomY = Math.round(Math.random() * availH) + 'px';
+    var randomX = Math.round(Math.random() * availW) + 'px';
+
+  img.src = imgSrc;
+  img.setAttribute("height", "34");
+img.setAttribute("width", "50");
+img.style.left = randomX;
+img.style.top = randomY;
+  
+  return img;
+}
+
+for (var i = 0; i < 20; i++ ) {
+  document.getElementById("intro").appendChild(generateImage());
+}
+</script>

@@ -22,11 +22,14 @@
 </div>
 
 <div class="browse-menu side-nav">
+    <div class="browse-side-wrapper"></div>
+
 <nav>
 
 
 
   <div class="browse-wrapper">
+
         <p class="close-btn"><a href="#">close</a></p>
         <div class="current-issue">
       <h1>Fandom Issue</h1>
@@ -39,7 +42,7 @@
   <div class="box author active-section">
 
     <div class="title-info">
- {% assign fandom-titles = (site.issues | where: "issue", "fandom") %}
+ {% assign fandom-titles = (site.issues | where: "issue", "fandom" | sort: 'lastname') %}
   <ul>
 
 {% for story in fandom-titles %}

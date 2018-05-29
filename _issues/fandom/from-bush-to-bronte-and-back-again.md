@@ -37,7 +37,10 @@ bio: |
 
 
 
-
+.fandom-page-wrapper .section-intro img {
+    filter: none;
+    opacity: 1;
+}
 
 
 
@@ -50,7 +53,7 @@ bio: |
     <div class="inner-section-wrapper">
                      {% include _fandom/titles.html %}
 
-            <div class="section-img item"><img src="{{ site.baseurl }}/assets/images/issues/02_fandom/Image1-Sarah-Rose-Smiley.jpg"></div></div>
+            <div class="intro-img item"><img src="{{ site.baseurl }}/assets/images/issues/02_fandom/Image1-Sarah-Rose-Smiley.jpg"></div></div>
 
 </div><!-- /section-intro -->
 

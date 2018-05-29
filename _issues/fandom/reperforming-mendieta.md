@@ -15,26 +15,9 @@ bio: |
 
 
 
-.story-title {
-	position: relative;
-    z-index: 10;
-    font-size: 8vw;
+.section-intro {
+    background: url('http://127.0.0.1:4000/assets/images/issues/02_fandom/clark-artemisa-reperforming-ana-mendieta-MattSavitsky9.jpg') no-repeat;
 }
-
-
-
-.section-intro-text {
-
-    background: white;
-
-}
-
-
-
-.section-essay p {
-    font-size: 2rem;
-}
-
 
 
 
@@ -50,7 +33,7 @@ bio: |
     <div class="inner-section-wrapper">
                      {% include _fandom/titles.html %}
 
-            <div class="section-img item"><img src="{{ site.baseurl }}/assets/images/issues/02_fandom/Image1-Sarah-Rose-Smiley.jpg"></div></div>
+           </div>
 
 </div><!-- /section-intro -->
 
@@ -73,6 +56,8 @@ Artemisa Clark
 
 <p>For the past four years, I have been developing a body of work based on reconstructing and re-performing segments of the life and work of Ana Mendieta. Mendieta once stated that the
 repetition found in her work was an “obsessive act of reasserting [her] ties with the earth,” and the repetition of her work and story in my own is my obsessive act of reasserting my ties to her. These attempted reassertions, however, always fail; she never quite finds home, I never quite find her. They insist on and produce constant, repetitive movement met with constant, repetitive failure. My work does not attempt to resolve or prove anything. They are reconstructions of sorts, providing specific practices or information, but moving towards emotional truths, ones just as factual and theoretically sound as those recorded and archived while resisting inclusion in that system. In 1980, Ana Mendieta curated Dialectics of Isolation: An Exhibition of Third World Women Artists of the United States at New York’s A.I.R. Gallery. The catalogue’s introduction describes the show as pointing “not necessarily to the injustice or incapacity of a society that has not been willing to include us, but more towards a personal will to continue being ‘other.’” It is within this “personal will to continue being ‘other’” that I have always been attracted to in her work and try to continue in my own.</p>
+
+<p> <img src="{{ site.baseurl }}/assets/images/issues/02_fandom/clark-artemisa-reperforming-ana-mendieta-MattSavitsky6.jpg"></p>
 
 <p>Rather than define performance re-enactments as separate from the original acts they attempt to recreate, performance studies scholar Rebecca Schneider states that they are “in fact the ongoing event itself, negotiated through sometimes radically shifting affiliation with the past as the present.” I try to keep Mendieta’s work alive while also examining the ways in which she used her practice as an embodied survival tactic for someone who felt she had no home, whose narrative was constantly being erased, questioned, or fetishized by those around her.</p>
 </div>

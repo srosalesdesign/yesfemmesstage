@@ -13,40 +13,43 @@ bio: |
 
 
 
-.section-img {
-    display: none;
+
+
+.section-img img {
+    position: absolute;
+    bottom: 23%;
+    right: 7%;
+    width: 50%;
 }
 
-
-.story-title {
-	position: relative;
-    z-index: 10;
-}
-
-
-.section-intro-text {
-
-    background: white;
+.section-intro .title-info {
+    left: 15%;
+    position: absolute;
+    top: 19%;
+    width: 45%;
 
 }
 
-
-
-.section-essay p {
-    font-size: 2rem;
+.fandom-page-wrapper .story-title {
+    text-align: left;
 }
 
+.section-story img {
+    filter: none;
+    opacity: 1;
+}
     
 
 </style>
 
 
 <div class="section-intro section">
-            <div class="inner-section-wrapper">
+    <div class="section-img item">
+            <img src="{{ site.baseurl }}/assets/images/issues/02_fandom/brown-jhanelle-too-much-emotional-trauma-with-my-kpop-2.jpg">
+        </div>
 			                 {% include _fandom/titles.html %}
 
     
-        </div>
 
 </div><!-- /section-intro -->
 
@@ -60,6 +63,8 @@ bio: |
     <p>Last year was the 25th anniversary of the LA Uprisings and as a recent Los Angeles transplant I’ve been ruminating on the uprisings with new context and regional specificity. Although my mom took me to Rodney King protests in Brooklyn as a toddler, my knowledge of the specific events that led up to followed his shooting were general at best. Furthermore, I didn’t know about Latasha Harlins (a young Black girl who was killed in the back of the head by a Korean shop owner before King was beaten) until I moved to LA in 2014. The Korean diaspora As a Black woman who believes that anti-Blackness lives everywhere, my recent fascination with Korean pop culture is leaving me with a really troublesome bout of cognitive dissonance.</p>
     <p>Every time I watch SMTM, I steel myself for either egregious appropriation or at the very least the looming specter of unacknowledged Blackness. For example, last season during season 5, the show, for the first time, held auditions in the United States. Because of the large resident Korean diaspora, the auditions were held here in Los Angeles, with Timbaland serving as guest producer-judge. At the start of the show, there was a montage introducing the non-Korean rappers, who were mostly Black. Later in the episode, these Black auditionees are referred to as “Hip Hop’s Natives.” On the one hand, I believe that people should never forget that hip-hop is Black music. Its origins, like all of our music, lie in a dual expression of struggle and joy. But the loaded nature of the word “native” in reference to Black people in a cultural ecosystem that allows Blackface on mainstream television and understands itself as racially homogenous is a problem. Kush, one of the producers, says about the Black contestants that “their eyes were alive.” </p>
 
+    <p><img src="{{ site.baseurl }}/assets/images/issues/02_fandom/brown-jhanelle-too-much-emotional-trauma-with-my-kpop-1.jpg" style="width: 100%;"></p>
+
 <p>The thing is, though, I’ve watched that season of SMTM twice (and went to the show’s concert in LA). I’ve watched season 4 through three times. Season 6 is currently airing and I’m such a fangirl I’ll watch the unsubtitled videos as soon as they drop and then rewatch the subtitled episode when it is uploaded. It’s actually taking all of my self-control to not watch the unsubtitled episode that just dropped right now.</p>
 
 <p>But the truth is, the level of cognitive dissonance that I’m navigating isn’t the result of fangirling one Korean rap show. Right now all I watch are Korean variety shows. I got my Master’s degree in Cinema and Media Studies. I’m deeply concerned with how media circulates. I’m a cinephile and have historically been a lover of television. My current this-is-too-much fannish tendency is a confusing departure from what I feel like I should be consuming. I feel guilty that I’m not watching a Black queer webseries or a Euzhan Palcy film or a Ceddo Film Collective documentary.</p>
@@ -69,7 +74,7 @@ bio: |
 <p>With my fandom strongly established I began to watch everything this group, Winner, appeared in, whether it was interviews or variety shows or their own documentaries (they have a 12 episode documentary show in which they open a mini daycare for 10 kids aged 2-6. I’ve watched the full season 5 times). From there I became accustomed to the particular language of Korean variety shows and began to watch shows because I liked them, not just because my favorite idols appeared in them. I also began listening to more music and developed a broader appreciation for the music that falls outside of the K-pop idol machine.
 </p>
 
-
+<p style="margin 1em 0;"><img src="{{ site.baseurl }}/assets/images/issues/02_fandom/brown-jhanelle-too-much-emotional-trauma-with-my-kpop-2.jpg" style="width: 100%;"></p>
 <p>Which brings me back to Show Me the Money. One of the producers is one of the most famous rappers in Korea today, is Dok2 (who is actually ¼ Filipino and ¼ Spanish). I watched his IG story in terrified, masochistic wonder as he got his hair braided by a Black woman at the Slauson Mall. The Slauson Mall. In South LA. Ten minutes down the street from me. This man has been wearing them way past their expiration date. (Always under a hat because they look terrible and should not be on his head. They look so bad, truly). Why doesn’t his teammate, Korean-American Jay Park, tell him that his braids are offensive appropriation? This is where I have another fascination with Korean popular music. The way in which members of the Diaspora come home and become superstars. As a first generation American who doesn’t feel like I can truly return to my “motherland”, (Jamaica) I sit with a strong sense of envy towards those who can. There are of course, unique reasons for that. K-pop is used as a tool of soft power and propaganda, it is subsidized and thus there is a booming market. (One only has to look to the 2018 Winter Olympics in Pyeongchang. Parachutes are also sent across the North-South Korea border, with K-pop blasting. Teenagers the world over are learning Korean because they want to watch K-dramas and watch their favorite idols without subtitles). Asian Americans are underrepresented in mainstream music. They are Otherized in a way that Black Americans are not. (Complete aside - We are never thought to also be the child of immigrants. Our assumed history as descendants of American slaves and lazy ignorance of postcolonial migration doesn’t afford us a global and diasporic identity. Of course that means we can generally escape the scapegoat status that falls to non-Black Latinxs and to a certain extent, APIs, but as a child of a formerly undocumented immigrant, I have my feelings). So a “return” to a willing nation to realize one’s dreams probably feels like a preferable route to take.</p>
 
 <p>There’s so much more that interests me. Gender. Class. Geography. East Asian colonialism. Direct, personal linkages to Leimert Park in Korean pop music. The role of language. As a Black person, I don’t support fetishizing other cultures. I’m very wary of becoming a card-carrying Koreaboo and take pains to not land in that treacherous territory.</p>

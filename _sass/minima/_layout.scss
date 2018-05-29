@@ -20,18 +20,7 @@
   height: 60px;
   padding-top: 2em;
 
-  .issue-label, .issue-no {
-
-  font-family: 'Inconsolata', monospace;
-  color: #0affa8;
-  text-transform: uppercase;
-  letter-spacing: .5em;
-  font-size: 1.1em;
-  text-decoration-line: underline;
-  text-decoration-style: wavy; 
-
-
-  }
+  
 
 }
 
@@ -51,7 +40,7 @@
     h1 {
     text-transform: uppercase;
     font-weight: 600;
-    font-size: 1.2em;
+    font-size: 1.8em;
     text-align: center;
     letter-spacing: .25em;
     }
@@ -245,6 +234,12 @@
     -moz-transition: right .3s ease;
     transition: right .3s ease;
 
+    .browse-side-wrapper {
+      position: absolute;
+      width: 50px;
+      height: 100%;
+    }
+
     nav {
       height: 100%;
       position: relative;
@@ -323,7 +318,10 @@
   right: 0;
 }
 
-
+.home-logo {
+  position: relative;
+  z-index: 99;
+}
 
 .home-logo h1 {
   font-family: 'Montserrat', sansserif;
@@ -434,7 +432,43 @@
  height: 100%;
   width: 100%;
   position: absolute;
-    top: 0;
+  top: 0;
+  overflow: hidden;
+
+  .item {
+    position: absolute;
+  }
+
+  .w-25 {
+    width: 25%;
+  }
+
+  .w-35 {
+    width: 35%;
+  }
+
+  .group-one {
+
+     .p-left-top {
+      top: 5%;
+     }
+
+     .p-right-bottom {
+      top: 25%;
+      right: -5%;
+     }
+
+     .p-left-bottom {
+      bottom: 15%;
+      left: 6%;
+     }
+
+     .p-bottom-center {
+      bottom: 0;
+      left: 40%;
+     }
+  }
+
 }
 
 .panel {
@@ -1091,11 +1125,18 @@ img.kenburns {
 
 .full-height {
   height: 100vh;
+  position: relative;
 }
 
 .flexit {
   display: flex;
   flex-direction: column;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .slide {
@@ -1373,6 +1414,7 @@ p.bio {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
+
 }
 
 

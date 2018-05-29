@@ -34,8 +34,12 @@ $( ".main-menu" ).click(function() {
 
 
 
-$( ".browse-menu" ).click(function() {
-  $(this).toggleClass( "expand-right");
+$( ".browse-side-wrapper" ).click(function() {
+  $(".browse-menu").toggleClass( "expand-right");
+});
+
+$( ".close-btn a" ).click(function() {
+  $(".browse-menu").toggleClass( "expand-right");
 });
 
 /*
