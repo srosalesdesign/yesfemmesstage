@@ -33,6 +33,10 @@ bio: |
     font-size: 2rem;
 }
 
+.section-main {
+    background-image: radial-gradient(100% 100%, #8553FB 10%, #fff 50%);
+}
+
     
 
 </style>
@@ -44,7 +48,7 @@ bio: |
             </div>
 </div><!-- /section-intro -->
 
-<div class="section-main section">
+<div class="section-main section full-height flex-center">
                 <div class="inner-section-wrapper">
           <div class="video-wrapper video-container"><div class="video">
 <video controls>
@@ -67,3 +71,4 @@ bio: |
 </div><!-- end / section-intro-text -->
 
 </div><!-- /batman-dracula-->
+<div class="story-bio section"><div class="inner-section-wrapper"><div class="text-wrapper"><p>{{page.bio}}</p></div></div>

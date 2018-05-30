@@ -42,11 +42,12 @@ bio: |
 
 .halves-wrapper {
     display: flex;
-    width: 100%;
+    width: 87%;
     margin: 0 auto;
     height: 100vh;
     position: absolute;
     overflow: scroll;
+    
 
 }
 
@@ -70,8 +71,8 @@ bio: |
 .entry {
     background-color: #eee;
     position: absolute;
-    top: 40%;
-    left: 50%;
+    top: 6%;
+    left: 15%;
     width: 400px;
     height: 400px
 }

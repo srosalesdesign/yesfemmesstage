@@ -52,7 +52,10 @@ figure > img {
   display: block; }
 
 figcaption {
-  font-size: 14px; }
+  padding: .5em 0;
+  font-style: italic;
+  color: lighter;
+  color: #828282; }
 
 /**
  * Lists
@@ -335,7 +338,7 @@ pre {
   .side-nav nav {
     max-width: 30em;
     padding: 24px 72px;
-    z-index: 999; }
+    z-index: 99999; }
 
 .side-nav:hover {
   overflow-y: scroll; }
@@ -420,9 +423,6 @@ pre {
   text-orientation: upright;
   */
   transform: rotate(90deg); }
-
-.browse-menu:hover, .main-menu:hover {
-  cursor: pointer; }
 
 .expand-right {
   right: 0; }
@@ -844,12 +844,16 @@ img.kenburns {
     overflow: hidden;
     background: #fff;
     top: 0;
-    border: 3px solid #54EA66; }
+    position: relative; }
     .temp-about .copy {
       width: 43%;
-      font-size: 1em;
+      font-size: 1.2em;
       margin-top: 0;
-      padding-top: 4em; } }
+      padding-top: 4em;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%); } }
 .highlight-pink {
   background-color: #F74DEB;
   padding: 5px; }
@@ -1225,6 +1229,12 @@ body.issue-fandom {
         text-decoration-line: underline;
         text-decoration-style: wavy; }
 
+.lists-wrapper {
+  padding-top: 1.5em; }
+
+.titles-wrapper, .authors-wrapper {
+  text-align: left; }
+
 .fhvh {
   height: 100vh; }
 
@@ -1267,7 +1277,7 @@ body.issue-fandom {
   -webkit-text-stroke-width: 0px;
   -webkit-text-stroke-color: unset; }
 .fandom-page-wrapper .author-title {
-  font-family: 'Inconsolata', monospace; }
+  /*font-family: 'Inconsolata', monospace;*/ }
 .fandom-page-wrapper .text-wrapper {
   padding: 2em 1.3em;
   font-size: 1.5rem;

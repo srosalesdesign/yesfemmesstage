@@ -167,7 +167,7 @@
     nav {
       max-width: 30em;
       padding: 24px 72px;
-      z-index: 999;
+      z-index: 99999;
     }
 }
 
@@ -288,9 +288,7 @@
 
 }
 
-.browse-menu:hover, .main-menu:hover {
-    cursor: pointer;
-}
+
 
 .expand-right {
   right: 0;
@@ -883,15 +881,19 @@ img.kenburns {
     overflow: hidden;
     background: #fff;
     top: 0;
-    border: 3px solid #54EA66;
+    position: relative;
 
 
 
     .copy {
       width: 43%;
-      font-size: 1em;
+      font-size: 1.2em;
       margin-top: 0;
       padding-top: 4em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     }
 
 

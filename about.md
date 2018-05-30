@@ -4,7 +4,6 @@ title: About
 bodyclass: about-pg
 permalink: /about/
 ---
-<div class="close"><a href="javascript:history.back()">X</a></div>
 <div class="page-about">
 <div class="temp-about">
   <div class="copy">

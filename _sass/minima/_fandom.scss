@@ -38,7 +38,17 @@ body.issue-fandom {
     }
   }
 
-}
+  }
+
+  .lists-wrapper {
+    padding-top: 1.5em;
+
+
+  }
+
+  .titles-wrapper, .authors-wrapper {
+    text-align: left;
+  }
 
 
 .fhvh {
@@ -106,7 +116,7 @@ body.issue-fandom {
   }
 
   .author-title {
-    font-family: 'Inconsolata', monospace;
+    /*font-family: 'Inconsolata', monospace;*/
  
   }
 

@@ -53,7 +53,8 @@ bio: |
     <div class="inner-section-wrapper">
                      {% include _fandom/titles.html %}
 
-            <div class="intro-img item"><img src="{{ site.baseurl }}/assets/images/issues/02_fandom/Image1-Sarah-Rose-Smiley.jpg"></div></div>
+            <div class="intro-img item"><figure><img src="{{ site.baseurl }}/assets/images/issues/02_fandom/Image1-Sarah-Rose-Smiley.jpg"><figcaption>Photo by Sarah Rose Smiley</figcaption>
+</figure></div></div>
 
 </div><!-- /section-intro -->
 
@@ -84,6 +85,10 @@ bio: |
     <p>A multiplication is already at work in Kate Bush's original song: Bush made two version of the video&mdash;the “red dress version” in a field near a forest with natural lighting, and the “white dress version” inside a studio with artificial lighting. The two versions of the video visually evoke the dichotomy between the domestic and outdoor spaces that Cathy inhabits in the novel. In a further multiplication, the studio video doubles Bush's image, creating a mirror image split screen effect. The billowy white dress also signifies Cathy's ghostliness, as Susan Bernstein pointed out to me, while the red dress signifies Cathy's vibrant, living passion&mdash;and, as the red word that appears on the screen in the beginning of the video reminds us, “rage.” The red dress version of the video has arguably been more popular, ultimately inspiring the fan reenactment. By choosing the red dress version over the white dress version, TMWHDE fans solidify its unofficial status as the preferred video, effectively choosing wild, passionate Cathy on the open moors over domestic, ghostly Cathy in the enclosed space.</p>
     <p>Continuously re-performing Cathy dancing exuberantly on the moors is perhaps in some ways a ritual that imaginatively resurrects and frees Brontë's Catherine, giving her another life beyond her enclosure in the novel's layered narrative voices, tragic plot structure, and suffocating domestic spaces. Professor Mary Trotter, also a TMWHDE dancer, pointed me to a passage in Wuthering Heights, Chapter 15, where Catherine says, “I’m tired, tired of being enclosed here. I’m wearying to escape into that glorious world, and to be always there; not seeing it dimly through tears, and yearning for it through the walls of an aching heart; but really with it, and in it.” Across time and space, we dance with each other, with Kate, and with the ghosts of Catherine and Brontë.</p>
     <p>Our queer femme world-making manifests a utopia of a zillion Cathies without a Heathcliff. Bush centers Catherine's first person perspective and relegates Heathcliff's presence to an absent addressee; TMWHDE dancers multiply Catherine, distributing the first person perspective across an ever-expanding assemblage of different bodies. <span style="background-color: #0affa8;">I loved the rehearsals the most, moving through the sequence piece by piece, learning how to move together, discovering how the moves move differently expressed by/on different bodies, our differences heightened by the near-sameness. In the sprawling net of this conjoined Cathy-ego subjectivity, I moved and was moved.<sup>5</sup></span> As we continue to perform future iterations of the dance, Catherine will keep infinitely multiplying&mdash;a queer self-reproductive process outside the tangled patriarchal familial structures that govern the world of Brontë's novel&mdash;while Heathcliff remains eternally absent. We'll keep singing to Heathcliff&mdash;lip-syncing, actually&mdash;but we'll dance with each other.</p>
+
+    <figure><img src="{{ site.baseurl }}/assets/images/issues/02_fandom/schaag-2.jpg">
+  <figcaption>Photo by Sarah Rose Smiley</figcaption>
+</figure>
 </div>
 </div>
 </div><!-- /section-essay-preface -->
