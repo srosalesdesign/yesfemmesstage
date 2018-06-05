@@ -13,7 +13,10 @@ bio: |
 
 
 
-
+.title-info {
+  z-index: 99;
+    position: relative;
+}
 
 
 .section img {
@@ -21,6 +24,19 @@ bio: |
     bottom: 20%;
     right: 10%;
 }
+
+
+
+.fandom-page-wrapper .story-title {
+    text-align: left;
+}
+
+#intro img {
+    position: absolute;
+}
+
+
+@media only screen and (min-width: 768px) {
 
 .section-intro .title-info {
     left: 15%;
@@ -31,14 +47,7 @@ bio: |
 
 }
 
-.fandom-page-wrapper .story-title {
-    text-align: left;
 }
-
-#intro img {
-    position: absolute;
-}
-
 
 </style>
 
@@ -88,8 +97,7 @@ bio: |
 <p>My nose is bleeding should I go see my Sex and the City doctor.</p> 
 <p>She'd be like, did you move here for a man or a job.</p>
 <p>I'm walking in Midtown, I’m like, good for you in your colorful outfit. Sad for a sea of black.</p>
-<p>I went to California with a youthful aching in my heart and I left it there / didn't.</p> 
-<p>My sister and my text relationship is so I did this, I did that. I text her, I washed my new bra and it's so tight I keep gasping for air in my cubicle.
+<p>I went to California with a youthful aching in my heart and I left it there / didn't.</p> <p>My sister and my text relationship is so I did this, I did that. I text her, I washed my new bra and it's so tight I keep gasping for air in my cubicle.
 <p>She writes back I fell asleep on the train and when I woke up a spider was dangling in front of my eyes /</p>
 <p>My cartoon world where I live with you.<br>
 Where I float across the ocean.<br>
@@ -152,7 +160,7 @@ img.style.top = randomY;
   return img;
 }
 
-for (var i = 0; i < 20; i++ ) {
+for (var i = 0; i < 10; i++ ) {
   document.getElementById("intro").appendChild(generateImage());
 }
 </script>

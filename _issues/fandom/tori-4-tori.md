@@ -23,7 +23,7 @@ bio: |
     left: 15%;
     position: absolute;
     top: 19%;
-    width: 38%;
+    width: 75%;
 
 }
 
@@ -40,16 +40,7 @@ bio: |
     font-size: smaller;
 }
 
-.halves-wrapper {
-    display: flex;
-    width: 87%;
-    margin: 0 auto;
-    height: 100vh;
-    position: absolute;
-    overflow: scroll;
-    
 
-}
 
 .sections {
     width: 60%;
@@ -81,6 +72,16 @@ bio: |
     width: 100%;
 }
 
+
+@media only screen and (min-width: 768px) {
+
+    .section-intro .title-info {
+  
+    width: 38%;
+
+}
+}
+
 </style>
 
 
@@ -89,7 +90,6 @@ bio: |
             <img src="{{ site.baseurl }}/assets/images/issues/02_fandom/vandyck-stephen-tori-4-tori.jpg"></div>			
         {% include _fandom/titles.html %}
 </div><!-- /section-intro -->
-<div class="halves-wrapper">
 <div class="entry-container">
     <div class="inner-section-wrapper">
     <div id="1" class="entry entry-1">
@@ -128,6 +128,8 @@ bio: |
 
 </div>
 </div>
+<div class="halves-wrapper">
+
 <div class="sections">
 <div id="1" class="section-one section">
 <div class="inner-section-wrapper">

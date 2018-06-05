@@ -325,7 +325,7 @@ document.body.onkeyup = function(e){
     left: 15%;
     position: absolute;
     top: 19%;
-    width: 38%;
+    width: 75%;
 
 }
 
@@ -342,16 +342,7 @@ document.body.onkeyup = function(e){
     font-size: smaller;
 }
 
-.halves-wrapper {
-    display: flex;
-    width: 87%;
-    margin: 0 auto;
-    height: 100vh;
-    position: absolute;
-    overflow: scroll;
-    
 
-}
 
 .sections {
     width: 60%;
@@ -383,6 +374,16 @@ document.body.onkeyup = function(e){
     width: 100%;
 }
 
+
+@media only screen and (min-width: 768px) {
+
+    .section-intro .title-info {
+  
+    width: 38%;
+
+}
+}
+
 </style>
 
 <div class="section-intro section">
@@ -408,7 +409,6 @@ People I&apos;ve Met From the Internet
 
 </div>
 <!-- /section-intro -->
-<div class="halves-wrapper">
 <div class="entry-container">
     <div class="inner-section-wrapper">
     <div id="1" class="entry entry-1">
@@ -447,6 +447,8 @@ People I&apos;ve Met From the Internet
 
 </div>
 </div>
+<div class="halves-wrapper">
+
 <div class="sections">
 <div id="1" class="section-one section">
 <div class="inner-section-wrapper">

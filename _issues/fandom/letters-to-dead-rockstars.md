@@ -14,21 +14,39 @@ bio: |
 
 .section img {
     position: absolute;
-    bottom: 10%;
+    top: 10%;
     right: 10%;
+    width: 80%;
 }
 
 .section-intro .title-info {
     left: 15%;
     position: absolute;
-    top: 19%;
-    width: 33%;
+    
+
+    top: 34%;
+    width: 90%
 
 }
 
 .fandom-page-wrapper .story-title {
     text-align: left;
 }
+
+
+@media only screen and (min-width: 768px) {
+    .section-intro .title-info {
+        top: 19%;
+         width: 33%;
+        }
+
+    .section img {
+        bottom: 10%;
+    }
+}
+
+
+
 </style>
 
 

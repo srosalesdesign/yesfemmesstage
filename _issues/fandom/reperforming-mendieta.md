@@ -17,6 +17,9 @@ bio: |
 
 .section-intro {
     background: url('http://127.0.0.1:4000/assets/images/issues/02_fandom/clark-artemisa-reperforming-ana-mendieta-MattSavitsky9.jpg') no-repeat;
+        background-size: cover;
+    background-position: center;
+
 }
 
 
@@ -30,10 +33,7 @@ bio: |
 
 
 <div class="section-intro section">
-    <div class="inner-section-wrapper">
-                     {% include _fandom/titles.html %}
-
-           </div>
+    <div class="inner-section-wrapper">{% include _fandom/titles.html %}</div>
 
 </div><!-- /section-intro -->
 
@@ -42,8 +42,6 @@ bio: |
     <div class="text-wrapper"><p><i>Dialectics of Isolation
 Artemisa Clark
 (excerpts from catalogue for Dialectics of Isolation, a night of performances inspired by Ana Mendieta, at Human Resources on June 23, 2017)</i></p></div></div>
-</div>
-
 </div><!-- /section-main -->
 
 <div class="section-essay-preface section">

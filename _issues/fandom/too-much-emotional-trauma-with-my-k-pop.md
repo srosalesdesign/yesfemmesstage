@@ -13,20 +13,22 @@ bio: |
 
 
 
-
+.section-img {
+    position: relative;
+}
 
 .section-img img {
     position: absolute;
-    bottom: 23%;
+    top: 6%;
     right: 7%;
-    width: 50%;
+    width: 70%;
 }
 
 .section-intro .title-info {
     left: 15%;
     position: absolute;
     top: 19%;
-    width: 45%;
+    width: 80%;
 
 }
 
@@ -37,6 +39,18 @@ bio: |
 .section-story img {
     filter: none;
     opacity: 1;
+}
+
+@media only screen and (min-width: 768px) {
+
+    .section-intro .title-info {
+            width: 45%;
+    }
+
+    .section-img img {
+        width: 50%;
+        top: 37%;
+    }
 }
     
 
