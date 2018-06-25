@@ -8,7 +8,7 @@ layout: default
 .intro-wrapper {
     height: 300px;
     width: 500px;
-    margin: auto;
+    margin: 5% auto;
     position: absolute;
     top: 0;
     right: 0;
@@ -20,12 +20,12 @@ layout: default
 
 .intro {
 
-	width: 100%;
+	  width: 100%;
     height: 100%;
     position: absolute;
     transform-style: preserve-3d;
-    transform: rotateY(40deg) rotateX(33deg) translateZ(0px);
-    animation: 5s ease-in-out -7.5s infinite alternate forwards intro;
+    /*transform: rotateY(10deg) rotateX(33deg) translateZ(0px);*/
+    /*animation: 5s ease-in-out -7.5s infinite alternate forwards intro;*/
     font-family: 'Pirata One', cursive;
     color: #8553FB;
 
@@ -42,7 +42,7 @@ layout: default
 
 
 .intro:after {
-    font-size: 8em;
+    font-size: 14em;
     content: 'FANDOM';
     white-space: pre;
     text-align: center;
@@ -52,7 +52,7 @@ layout: default
     top: 50px;
     letter-spacing: -2px;
     /* text-shadow: 4px 0 10px rgba(0, 0, 255, 0.13); */
-    letter-spacing: .2em;
+    letter-spacing: .08em;
 }
 
 @keyframes intro  {
@@ -84,24 +84,56 @@ layout: default
 
 
 <div id="landing-wrapper">
-<div class="group-one">
+<div class="group group-one">
 <div class="item w-25 p-left-top">
-	<img src="{{ site.baseurl }}/assets/images/issues/02_fandom/anna-mendieta.png">
+	<a href="{{ site.baseurl }}/issues/fandom/reperforming-mendieta"><img src="{{ site.baseurl }}/assets/images/issues/02_fandom/anna-mendieta.png"></a>
 </div>
 <div class="item w-35 p-right-bottom">
-	<img src="{{ site.baseurl }}/assets/images/issues/02_fandom/hd.png">
+	<a href="{{ site.baseurl }}/issues/fandom/on-mysteria-hds-mystical-hysterical-poetics"><img src="{{ site.baseurl }}/assets/images/issues/02_fandom/hd.png"></a>
 </div>
 <div class="item w-25 p-left-bottom">
-	<img src="{{ site.baseurl }}/assets/images/issues/02_fandom/kate-bush.png">
+	<a href="{{ site.baseurl }}/issues/fandom/from-bush-to-bronte-and-back-again"><img src="{{ site.baseurl }}/assets/images/issues/02_fandom/kate-bush.png"></a>
 </div>
 <div class="item w-25 p-bottom-center">
-	<img src="{{ site.baseurl }}/assets/images/issues/02_fandom/ze-brazilian.png">
+	<a href="{{ site.baseurl }}/issues/fandom/greetings-friends"><img src="{{ site.baseurl }}/assets/images/issues/02_fandom/ze-brazilian.png"></a>
 </div>
+
+</div><!-- end group-one -->
+
+<div class="group group-two">
+<div class="item w-25 p-left-top">
+  <a href="{{ site.baseurl }}/issues/fandom/dirty-dancing"><img src="{{ site.baseurl }}/assets/images/issues/02_fandom/home/cho-tom_dirtydancing_1.jpg"></a>
+</div>
+<div class="item w-18 p-right-bottom">
+  <a href="{{ site.baseurl }}/issues/fandom/mrs-bailey"><img src="{{ site.baseurl }}/assets/images/issues/02_fandom/home/green-book.jpg"></a>
+</div>
+<div class="item w-25 p-left-bottom">
+  <a href="{{ site.baseurl }}/issues/fandom/letters-to-dead-rockstars"><img src="{{ site.baseurl }}/assets/images/issues/02_fandom/home/fruchter-temim-dead-rockstars_1.jpg"></a>
+</div>
+<div class="item w-35 p-bottom-center">
+  <a href="{{ site.baseurl }}/issues/fandom/45-billion-observations"><img src="{{ site.baseurl }}/assets/images/issues/02_fandom/home/crawford-marissa-indigo-girls.jpg"></a>
+</div>
+</div><!-- end group-two -->
+
+<div class="group group-three">
+<div class="item w-25 p-left-top">
+  <a href="{{ site.baseurl }}/issues/fandom/dear-mary-kate"><img src="{{ site.baseurl }}/assets/images/issues/02_fandom/home/mary-kate.png"></a>
+</div>
+<div class="item w-35 p-bottom-center">
+  <a href="{{ site.baseurl }}/issues/fandom/tori-4-tori"><img src="{{ site.baseurl }}/assets/images/issues/02_fandom/home/tori-amos.jpg"></a>
+</div>
+<div class="item w-18 p-left-bottom">
+  <a href="{{ site.baseurl }}/issues/fandom/a-fan-of-utopia"><img src="{{ site.baseurl }}/assets/images/issues/02_fandom/home/natalie-barney.jpg"></a>
+</div>
+<div class="item w-35 p-right-bottom">
+  <a href="{{ site.baseurl }}/issues/fandom/too-much-emotional-trauma-with-my-k-pop"><img src="{{ site.baseurl }}/assets/images/issues/02_fandom/home/kpop-show-me-the-money.jpg"></a>
+</div>
+</div><!-- end group-two -->
+
+
 <div class="intro-wrapper">
 <div class="intro"></div>
 </div>
-</div>
-
 </div><!-- end landing wrapper -->
 
 

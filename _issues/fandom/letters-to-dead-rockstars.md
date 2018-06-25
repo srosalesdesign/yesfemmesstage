@@ -42,6 +42,7 @@ bio: |
 
     .section img {
         bottom: 10%;
+        width: 58%;
     }
 }
 

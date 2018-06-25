@@ -9,7 +9,13 @@ bio: |
   Claire Cronin is a poet, songwriter, and doctoral student in Athens, GA. Her chapbook, *A Spirit is a Mood Without a Body*, won the 2017 Dead Lake Chapbook contest. Claire's work can be found in *Bennington Review, Sixth Finch, Vinyl Poetry, BOAAT, Cloud Rodeo, Yalobusha Review, The Volta*, and other journals. She has an MFA from the University of California, Irvine.
 ---
 
+<style>
 
+ p img {
+    margin: 1.5em 0;
+ }
+
+</style>
 
 
 <div class="section-intro section">

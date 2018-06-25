@@ -2,12 +2,12 @@
 			
 
             {% if page.subtitle %}
-			<h3 class="sub-title item">{{page.subtitle}}</h3>
+			<h3 class="sub-title">{{page.subtitle}}</h3>
   			{% endif %}
 
-  			<h1 class="story-title item">{{page.title }}<br><span class="author-title item">By {{page.firstname}} {{page.lastname}}</span> </h1>
+  			<h1 class="story-title">{{page.title }}<br><span class="author-title item">By {{page.firstname}} {{page.lastname}}</span> </h1>
   			{% if page.titlenotes %}
-  			<h1>{{page.titlenotes}}</h1>
+  			<h1 class="title-notes">{{page.titlenotes}}</h1>
 
   			{% endif %}
             		        

@@ -132,9 +132,7 @@ Exercise or sleep.<br>
 You emptied the laundry all over the bed and I screamed like a bomb exploded.<br>
 All the things that I'm interested in.<br>
 Will I take a selfie at the end of the world.</p>
-</div>
-</div>
-</div><!-- /section-two -->
+<!-- /section-two -->
 
 
 

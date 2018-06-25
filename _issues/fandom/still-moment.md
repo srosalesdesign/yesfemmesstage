@@ -18,7 +18,7 @@ bio: |
 
 .section-intro .inner-section-wrapper {
     background: #8553FB;
-    width: 85%;
+    width: 75%;
     height: 78vh;
     box-shadow: 0 0 2em #0affa8;
    
@@ -72,8 +72,14 @@ bio: |
 			{% include _fandom/titles.html %}
             </div>
     <div class="text-wrapper"><p>a still moment: a diva under a spotlight; abject, unruly fragments, constantly transforming; simultaneous cheering, booing, laughing. divas themselves are mechanisms for the workings of power through discourse; they invoke an identification in the viewer—a sign of objectification for the subjugation of the viewer.  what if the exemplary diva was one of formlessness? an amorphous shit blob coming together and falling apart and fading in and out--no race, gender, etc..</p>
+
+    <p style="font-size: smaller; text-align: center;">&darr; scroll for video &darr; </p>
+
 </div>
+
+
 </div><!-- /section-intro -->
+
 
 </div>
 <div class="section-main section full-height flex-center">

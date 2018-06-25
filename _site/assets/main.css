@@ -78,10 +78,10 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-  color: #2a7ae2;
+  color: #111;
   text-decoration: none; }
   a:visited {
-    color: #1756a9; }
+    color: black; }
   a:hover {
     color: #111;
     text-decoration: none; }
@@ -385,10 +385,11 @@ pre {
   position: absolute;
   width: 50px;
   height: 100%;
-  width: 20px;
-  height: 100%;
   left: 0;
   z-index: 9999999999; }
+
+.browse-side-wrapper:hover, .main-menu:hover {
+  cursor: pointer; }
 
 .browse-menu, .browse-menu.hide {
   border-left: 1px solid #666;
@@ -475,8 +476,11 @@ pre {
   right: 0; }
 
 .home-logo {
-  position: relative;
-  z-index: 99; }
+  position: absolute;
+  z-index: 99;
+  left: 50%;
+  top: 3%;
+  transform: translateX(-50%); }
 
 .home-logo h1 {
   font-family: 'Montserrat', sansserif;
@@ -484,7 +488,7 @@ pre {
   text-transform: uppercase;
   letter-spacing: .13em;
   text-align: center;
-  font-size: 10vw;
+  font-size: 1.8em;
   background: none;
   color: #0affa8; }
 
@@ -556,9 +560,13 @@ pre {
 #landing-wrapper {
   height: 100%;
   width: 100%;
-  position: absolute;
-  top: 0;
-  overflow: hidden; }
+  position: relative;
+  top: 0; }
+  #landing-wrapper .group {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    perspective: 1000px; }
   #landing-wrapper .item {
     position: absolute; }
   #landing-wrapper .w-25 {
@@ -568,14 +576,49 @@ pre {
   #landing-wrapper .group-one .p-left-top {
     top: 5%; }
   #landing-wrapper .group-one .p-right-bottom {
-    top: 25%;
-    right: -5%; }
+    top: 10%;
+    right: -25%; }
   #landing-wrapper .group-one .p-left-bottom {
     bottom: 15%;
     left: 6%; }
   #landing-wrapper .group-one .p-bottom-center {
-    bottom: 0;
+    bottom: -25%;
     left: 40%; }
+  #landing-wrapper .group-two .w-25 {
+    width: 25%; }
+  #landing-wrapper .group-two .w-18 {
+    width: 18%; }
+  #landing-wrapper .group-two .w-35 {
+    width: 35%; }
+  #landing-wrapper .group-two .p-left-top {
+    top: 7%;
+    left: 11%; }
+  #landing-wrapper .group-two .p-right-bottom {
+    top: -5%;
+    right: 5%; }
+  #landing-wrapper .group-two .p-left-bottom {
+    bottom: 22%;
+    left: 15%; }
+  #landing-wrapper .group-two .p-bottom-center {
+    top: 46%;
+    left: 45%; }
+  #landing-wrapper .group-three .w-25 {
+    width: 25%; }
+  #landing-wrapper .group-three .w-18 {
+    width: 18%; }
+  #landing-wrapper .group-three .w-35 {
+    width: 35%; }
+  #landing-wrapper .group-three .p-left-top {
+    top: 7%;
+    left: 11%; }
+  #landing-wrapper .group-three .p-right-bottom {
+    right: 5%; }
+  #landing-wrapper .group-three .p-left-bottom {
+    top: 63%;
+    left: 27%; }
+  #landing-wrapper .group-three .p-bottom-center {
+    bottom: 10%;
+    right: 15%; }
 
 .panel {
   width: 100%;
@@ -1279,7 +1322,7 @@ body.issue-fandom {
 
 .titles-wrapper, .authors-wrapper {
   text-align: center;
-  font-size: 1.3em; }
+  font-size: 1.5em; }
 
 .fhvh {
   height: 100vh; }

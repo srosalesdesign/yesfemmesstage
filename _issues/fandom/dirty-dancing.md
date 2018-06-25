@@ -4,9 +4,10 @@ lastname: Cho
 firstname: Tom
 subtitle: 
 title: Dirty Dancing
+titlenotes: |  
+    This piece appears in the collection of fictions <i>Look Who’s Morphing</i>, published by Arsenal Pulp Press.
 issue: fandom
-bio: |
-  M. Milks is the author of Kill Marguerite and Other Stories, winner of the 2015 Devil’s Kitchen Reading Award in Fiction and a Lambda Literary Award finalist; as well as three chapbooks, most recently The Feels, an exploration of fan fiction and affect. They are editor of The &NOW Awards 3: The Best Innovative Writing, 2011-2013 and co-editor of Asexualities: Feminist and Queer Perspectives.
+bio: Tom Cho is the author of the collection of fictions <i>Look Who’s Morphing</i>, originally published in Australia and later released by Arsenal Pulp Press for North America. His fiction pieces have appeared in <i>The Best Australian Stories</i> series and <i>Electric Literature</i>’s Recommended Reading, among many others. These days, he’s writing a novel about the meaning of life. His website is at tomcho.com.
 ---
 
 <style>
@@ -14,28 +15,37 @@ bio: |
 
 
 
-.story-title {
-	position: relative;
-    z-index: 10;
+.title-info {
+    z-index: 99;
+    position: relative;
 }
 
-
-
-.section-intro-text {
-
-    background: white;
-
+.title-notes {
+  width: 60%;
+  font-size: 1.5em;
 }
-
-
-
-.section-essay p {
-    font-size: 2rem;
-}
-
-  #intro img {
+.section img {
     position: absolute;
-}  
+    bottom: 20%;
+    right: 10%;
+}
+
+.fandom-page-wrapper .title-info {
+  text-align: left;
+}
+
+.fandom-page-wrapper .story-title {
+    text-align: left;
+    padding: 0;
+}
+
+#intro img {
+    position: absolute;
+}
+
+.main-img {
+  width: 35%;
+}
 
 </style>
 
@@ -43,9 +53,11 @@ bio: |
 <div class="dirty-dancing story">
 
 	<div id="intro" class="section-intro section">
-            <div class="inner-section-wrapper">
-			{% include _fandom/titles.html %}
-          </div>
+          <div class="inner-section-wrapper">
+                     {% include _fandom/titles.html %}
+
+                     <img class="main-img" src="{{ site.baseurl }}/assets/images/issues/02_fandom/cho-tom_dirtydancing_1.jpg">
+                 </div>
 </div><!-- /section-intro -->
 <div class="section-intro-text section">
                 <div class="inner-section-wrapper">
@@ -62,6 +74,13 @@ bio: |
 </div><!-- / section-intro-text-->
 </div><!-- end story-wrapper -->
 
+<div class="section-three notes section">
+    <div class="inner-section-wrapper">
+    <div class="text-wrapper">
+        <p>{{page.bio}}</p>
+
+</div></div></div>
+
 <script>
     var imgSrc = '{{ site.baseurl }}/assets/images/issues/02_fandom/cho-tom_dirtydancing_1.jpg';
 
@@ -75,8 +94,8 @@ bio: |
     var randomX = Math.round(Math.random() * availW) + 'px';
 
   img.src = imgSrc;
-  img.setAttribute("height", "34");
-img.setAttribute("width", "50");
+  img.setAttribute("height", "61");
+img.setAttribute("width", "90");
 img.style.left = randomX;
 img.style.top = randomY;
   

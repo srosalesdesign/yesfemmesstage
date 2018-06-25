@@ -14,7 +14,7 @@ $(window).bind("load resize scroll",function(e){
       var scrolled = $(window).scrollTop();
 
       currentElement.css({
-        'transform': 'translate3d(0,' + scrolled * -0.1 + 'px, 0)'
+        'transform': 'translate3d(0,' + scrolled * -0.3 + 'px, 0)'
       });
     }
   });

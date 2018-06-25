@@ -11,13 +11,40 @@ bio: |
 
 <style>
 
+.section-intro .inner-section-wrapper {
+    background: #8553FB;
+    width: 75%;
+    height: 78vh;
+    box-shadow: 0 0 2em #0affa8;
+   
+
+}
+
+.fandom-page-wrapper .title-info, .fandom-page-wrapper .story-title {
+    text-align: left;
+    margin-left: 1.3%;
+}
+
+.section-intro .text-wrapper {
+    position: absolute;
+    width: 55%;
+    left: 17%;
+    color: white;
+    top: 30%;
+}
 
 
+
+.section-main {
+    background-image: radial-gradient(50% 50%, #8553FB -100%, #fff 95%);
+
+}
 
 .story-title {
 	position: relative;
     z-index: 10;
 }
+
 
 
 
@@ -41,34 +68,24 @@ bio: |
 
 </style>
 
-<div class="batman-dracula story">
 <div class="section-intro section">
             <div class="inner-section-wrapper">
-			{% include _fandom/titles.html %}
+            {% include _fandom/titles.html %}
             </div>
+    <div class="text-wrapper"><p>Greetings Friends is a passage from his full-length essay film titled after a Disney Studio produced film. In 1941 the United States government created the Office of Inter-American Affairs, stemmed from a growing concern of potential Nazi infiltration in Latin America. They hired Walt Disney to produce animated cartoons, most of which focused upon Latin America as subject. These videos took on health issues such as malaria, water treatment and tuberculosis, while also producing animated characters as visual representations for these countries. In Greeting Friends, Pescador reconsiders these films and their relationship between cultural diplomacy and colonialism. In examining the regions that Walt Disney visited and documented, Pescador attempts to understand how Disney iconography is still being culturally appropriated today.</p>
+
+    <p style="font-size: smaller; text-align: center;">&darr; scroll for video &darr; </p>
+
+</div>
+
+
 </div><!-- /section-intro -->
 
 <div class="section-main section full-height flex-center">
                 <div class="inner-section-wrapper">
-          <div class="video-wrapper video-container"><div class="video">
-<video controls>
-  <source src="{{ site.baseurl }}/assets/video/batman-dracula-2017.mp4" type="video/mp4">
-  <source src="/path/to/video.webm" type="video/webm">
-  <!-- Captions are optional -->
-  <track kind="captions" label="English captions" src="/path/to/captions.vtt" srclang="en" default>
-</video>
-</div><!-- close video -->
-</div><!-- /inner video-wrapper -->
+         <div class="video-wrapper"><div class="video" data-type="youtube" data-video-id="q7VMF3kTM9s"></div></div>
 </div><!-- /inner-section-wrapper -->
 </div><!-- /section-main -->
 
-<div class="section-intro-text section">
-                <div class="inner-section-wrapper">
 
-    <div class="text-wrapper"><p>Greetings Friends is a passage from his full-length essay film titled after a Disney Studio produced film. In 1941 the United States government created the Office of Inter-American Affairs, stemmed from a growing concern of potential Nazi infiltration in Latin America. They hired Walt Disney to produce animated cartoons, most of which focused upon Latin America as subject. These videos took on health issues such as malaria, water treatment and tuberculosis, while also producing animated characters as visual representations for these countries. In Greeting Friends, Pescador reconsiders these films and their relationship between cultural diplomacy and colonialism. In examining the regions that Walt Disney visited and documented, Pescador attempts to understand how Disney iconography is still being culturally appropriated today.</p>
-    
-</div><!-- / inner-section-wrapper -->
-</div><!-- end / section-intro-text -->
-
-</div><!-- /batman-dracula-->
 <div class="story-bio section"><div class="inner-section-wrapper"><div class="text-wrapper"><p>{{page.bio}}</p></div></div>
